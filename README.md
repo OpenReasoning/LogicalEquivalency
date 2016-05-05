@@ -21,5 +21,5 @@ not empty, then use Complement to replace with A ∨ ¬A where A ∈ A(ϕ, ψ), 
 negation with a contradiction symbol. E.g. A ∧ ¬A ∧ B becomes ⊥ ∧ B becomes ⊥.
 8. Use Identity to get rid of all disjuncts that are ⊥. If there is only one disjunct ⊥ left, then the
 statement is in CDNF and the process can stop.
-9. ** Use Idempotence to eliminate any duplicate disjuncts.
-10. ** Finally, use Commutation to get all disjuncts in the ‘right’ order
+9. Use Idempotence to eliminate any duplicate disjuncts. (If didn't stop at step 8)
+10. Finally, use Commutation to get all disjuncts in the ‘right’ order. (If didn't stop at step 8)  
