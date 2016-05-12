@@ -35,7 +35,7 @@ class StepTypes(object):
         elif step_type == cls.ADJACENCY:
             return "Perform Adjacency"
         elif step_type == cls.FLATTEN:
-            return "Generalize formula"
+            return "Perform Association"
         elif step_type == cls.IDEMPOTENCE_CONJUNCT:
             return "Performed Idempotence on Conjuncts"
         elif step_type == cls.ANNIHILATION:
