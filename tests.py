@@ -27,5 +27,6 @@ def test_generalized_or_constructor():
     statement = GeneralizedOr(Or(Symbol("B"), Symbol("C")), Symbol("A"))
     assert_equal(statement, GeneralizedOr(Symbol("B"), Symbol("C"), Symbol("A")))
 
+
 if __name__ == "__main__":
     runmodule()
