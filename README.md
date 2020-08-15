@@ -1,6 +1,9 @@
 LogicalEquivalency
 ===================
 
+[![Test](https://github.com/OpenReasoning/LogicalEquivalency/workflows/Test/badge.svg?branch=master&event=push)](https://github.com/OpenReasoning/LogicalEquivalency/actions?query=workflow%3ATest+branch%3Amaster+event%3Apush)
+[![codecov](https://codecov.io/gh/OpenReasoning/LogicalEquivalency/branch/master/graph/badge.svg)](https://codecov.io/gh/OpenReasoning/LogicalEquivalency)
+
 We check for equivalency of two given logical formulas.
 
 The basic outline of the program is below:
